@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-tailwindcss-kickstarter",
-  "description": "Basic template setup with Next.js + Tailwind CSS and some helpers.",
+  "name": "orphanage-centre-mombasa",
+  "description": "Child of Mercy Orphanage Centre (COMOC) Mombasa - Website | Built with Next.js",
   "version": "1.0.0",
   "author": {
     "name": "Lars Wittenberg",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/larswittenberg/nextjs-tailwindcss-kickstarter.git"
+    "url": "git+https://github.com/larswittenberg/orphanage-centre-mombasa"
   },
   "scripts": {
     "dev": "next",

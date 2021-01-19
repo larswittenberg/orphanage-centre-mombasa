@@ -1,6 +1,6 @@
-const title = 'Next.js + Tailwind CSS Kickstarter'
-const description = 'Basic template setup with Next.js + Tailwind CSS and some helpers.'
-const url = 'https://nextjs-tailwindcss-kickstarter.vercel.app/'
+const title = 'Child of Mercy Orphanage Centre Mombasa, Kenya'
+const description = 'Child of Mercy Orphanage Centre (COMOC) was formed in 2010 and is situated in the Likoni slum area south of Mombasa.'
+const url = 'https://child-of-mercy-orphanage-centre-kenya.com/'
 
 export default {
 	title,
@@ -8,7 +8,6 @@ export default {
 	canonical: url,
 	openGraph: {
 		type: 'website',
-		locale: 'en_GB',
 		url: url,
 		title,
 		description,
