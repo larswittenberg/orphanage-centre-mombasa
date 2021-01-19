@@ -9,8 +9,10 @@
 
 
 ::selection {
-	background-color: theme('colors.orange');;
+	background-color: theme('colors.orange');
 	color: #fff;
 }
-
+ a {
+	color: theme('colors.orange');
+ }
 

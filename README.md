@@ -1,4 +1,6 @@
-# Child of Mercy Orphanage Centre (COMOC) Mombasa Website | Built with Next.js
+# Website of the Child of Mercy Orphanage Centre (COMOC) Mombasa, Kenya
+
+[https://child-of-mercy-orphanage-centre-kenya.com/](https://child-of-mercy-orphanage-centre-kenya.com/)
 
 ## Development
 

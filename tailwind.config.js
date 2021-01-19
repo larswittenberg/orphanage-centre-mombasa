@@ -1,11 +1,14 @@
 module.exports = {
 	purge: false,
-	darkMode: 'media', // or 'media' or 'class'
+	darkMode: false, // or 'media' or 'class'
 	theme: {
 		extend: {
 			colors: {
 				'orange': '#ef7c17',
 				'darkblue': '#1c2532',
+			},
+			boxShadow: {
+				polaroid: 'rgba(0, 0, 0, 0.5) 0px 4px 6px',
 			}
 		},
 	},
