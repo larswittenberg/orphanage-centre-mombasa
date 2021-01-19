@@ -1,0 +1,16 @@
+/* For Debugging Only */
+/* @import "helpers/debugging.css";
+@import "helpers/htmllinting.css"; */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::selection {
+	background-color: theme('colors.orange');;
+	color: #fff;
+}
+
+
