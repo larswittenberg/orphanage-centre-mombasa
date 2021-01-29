@@ -540,13 +540,13 @@ atob@^2.1.2:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
 
-autoprefixer@^10.2.1:
-  version "10.2.1"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.1.tgz#ce96870df6ddd9ba4c9bbba56c54b9ef4b00a962"
-  integrity sha512-dwP0UjyYvROUvtU+boBx8ff5pPWami1NGTrJs9YUsS/oZVbRAcdNHOOuXSA1fc46tgKqe072cVaKD69rvCc3QQ==
+autoprefixer@^10.2.3:
+  version "10.2.3"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.2.3.tgz#2834b55b75cfc10fa80c66000a66dc94b7136804"
+  integrity sha512-vlz+iv+EnLkVaTgX8wApfYzmK3LUfK8Z9XAnmflzxMy/+oFuNK8fVGQV79SOpBv4jxk2YQJimw4hXIKZ29570A==
   dependencies:
     browserslist "^4.16.1"
-    caniuse-lite "^1.0.30001173"
+    caniuse-lite "^1.0.30001178"
     colorette "^1.2.1"
     fraction.js "^4.0.13"
     normalize-range "^0.1.2"
@@ -857,6 +857,11 @@ caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001113, caniuse-lite@^1.0.300011
   version "1.0.30001177"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001177.tgz#2c3b384933aafda03e29ccca7bb3d8c3389e1ece"
   integrity sha512-6Ld7t3ifCL02jTj3MxPMM5wAYjbo4h/TAQGFTgv1inihP1tWnWp8mxxT4ut4JBEHLbpFXEXJJQ119JCJTBkYDw==
+
+caniuse-lite@^1.0.30001178:
+  version "1.0.30001181"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz#4f0e5184e1ea7c3bf2727e735cbe7ca9a451d673"
+  integrity sha512-m5ul/ARCX50JB8BSNM+oiPmQrR5UmngaQ3QThTTp5HcIIQGP/nPBs82BYLE+tigzm3VW+F4BJIhUyaVtEweelQ==
 
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -2610,10 +2615,10 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-next-seo@^4.17.0:
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.17.0.tgz#fb3dbe0ed7414aa9d83872ef5d8510980a6dae7e"
-  integrity sha512-/hnb3oq7bhi8s7bup7+Lm6VzzgRucj+JrWtp+dJiYs/04H0N/NhmE9MpepixQ16fFj6G/39JLYxhzsO/QZG/Kw==
+next-seo@^4.18.0:
+  version "4.18.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-4.18.0.tgz#c6cf30253088d64c2e552e10d89a831b59f661c4"
+  integrity sha512-Omv6r7hIRArsVpa3rzUmhjsuOm9eSFvG7BU3F/oEl7Z2OYjpOJvVjZsEgHMmsBvgmT1Svy0LDVo1/FKH3Zh4wQ==
 
 next-tick@~1.0.0:
   version "1.0.0"
