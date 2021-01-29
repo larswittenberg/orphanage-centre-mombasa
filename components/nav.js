@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import NextLink from 'next/link'
 
 const links = [
 	{ href: '/mission', label: 'Mission' },
@@ -14,16 +14,16 @@ export default function Nav() {
 		<nav className="bg-gray-800">
 			<ul className="flex items-center justify-between p-8">
 				<li>
-					<Link href="/">
+					<NextLink href="/">
 						<a className="no-underline text-accent-1 dark:text-gray-300">Child of Mercy Orphanage Centre</a>
-					</Link>
+					</NextLink>
 				</li>
 				<ul className="flex items-center justify-between space-x-4">
 					{links.map(({ href, label }) => (
 						<li key={`${href}${label}`}>
-							<a href={href} className="underline p-1 text-gray-50">
-								{label}
-							</a>
+							<NextLink href={href}>
+								<a className="underline p-1 text-gray-50">{label}</a>
+							</NextLink>
 						</li>
 					))}
 				</ul>
