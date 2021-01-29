@@ -1,0 +1,47 @@
+import LayoutDefault from '../components/LayoutDefault'
+
+export const meta = {
+	title: 'Volunteers',
+}
+
+# Mission
+
+## Who we are
+
+Child of Mercy Orphanage Centre is a nonprofit making religious institution with a mission to ensure a better life is provided to the needy and orphaned, the less fortunate and poor children from poverty stricken families through a provision of primary necessities to attain a nation where children become self-reliant future leaders we target children of ages 5 to 15 years both girls and boys.
+
+<div className="md:flex items-start">
+<div className="w-2/3 pr-24">
+
+> I worked in another orphanage before, but due to some difficult circumstances I was not able to presume my visions. In 2010, when Child of Mercy was formed, I finally had the possibility to give the children a lovely home. That was the brightest moment in my life.
+>
+> – <cite>Jessy, Director of COMOC</cite>
+
+</div>
+<Polaroid
+	filename="staff/jessica.jpg"
+	alt="Jessy, Director of COMOC"
+	w={401}
+	h={535}
+	rotationRight
+	className="w-1/3"
+/>
+</div>
+
+
+## Our goals
+
+Our specified goal is to address their needs and formulate ways of attending to them by acquiring assistance in the form of donation gifts and money from charitable donor communities, charitable organizations both international and local, well-wishers, volunteers, local communities and government.
+
+> My biggest aim is to see that the children are well protected and cared for but also to widen up the centre or even go to different parts of the country, because there are so many children who urgently need our assistance.
+>
+> – <cite>Jessy, Director of COMOC</cite>
+
+<Polaroid
+	filename="comoc-staff.jpg"
+	alt="COMOC Staff"
+	w={840}
+	h={680}
+/>
+
+export default ({ children }) => <LayoutDefault meta={meta}>{children}</LayoutDefault>
