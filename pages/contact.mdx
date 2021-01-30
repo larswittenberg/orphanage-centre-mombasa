@@ -6,5 +6,31 @@ export const meta = {
 
 # Contact
 
+Child of Mercy Orphanage Centre (COMOC)<br />
+P.O. Box: 1251-80100, Mombasa<br />
+Phone +254 781428269 or +254 727449389<br />
+childofmercycentre_2010@yahoo.com
+
+E-Mail contact Germany:<br />
+Maren Wittenberg, maren-wittenberg@web.de
+
+Concept, design, implementation: <a href="https://larswittenberg.de/" target="_blank" rel="noopener noreferrer">Lars Wittenberg</a>
+
+
+## Location
+
+Click on the map to open a larger version.
+
+<a href="https://www.google.com/maps/place/-4.085521,39.672258/" target="_blank" rel="noopener noreferrer">
+	<img
+		src={`https://maps.googleapis.com/maps/api/staticmap?center=-4.075521,39.672258&zoom=14&scale=1&size=1280x720&maptype=roadmap&key=${process.env.GOOGLE_MAPS_API_KEY}&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C-4.085521,39.672258`}
+		alt="Google Map"
+		width="1280"
+		height="720"
+	/>
+</a>
+
+
+
 
 export default ({ children }) => <LayoutDefault meta={meta}>{children}</LayoutDefault>
