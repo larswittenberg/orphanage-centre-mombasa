@@ -6,14 +6,16 @@ export default function Polaroid({
 		w,
 		h,
 		rotation='none',
-		rotationRight,
-		className
+		className,
+		title,
+		subtitle,
 	}){
 
 	return (
 		<div className={`
-			shadow-polaroid p-3 pb-12
+			shadow-polaroid p-3
 			${className}
+			${title ? 'pb-2' : 'pb-12'}
 			${rotation == 'right' ? 'transform rotate-1' : rotation == 'left' ? 'transform -rotate-1' : ''}
 		`}>
 			<NextImage
@@ -22,6 +24,10 @@ export default function Polaroid({
 				width={w}
 				height={h}
 			/>
+			<span className="flex flex-col text-center mt-0 mb-1">
+				<i className="not-italic">{title}</i>
+				<i className="not-italic text-gray-400">{subtitle}</i>
+			</span>
 		</div>
 	)
 }

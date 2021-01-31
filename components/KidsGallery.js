@@ -86,20 +86,19 @@ const kids = [
 
 export default function KidsGallery() {
 	return (
-		<div className="">
-				<ol className="">
-					{kids.map(({ name, date, src, }, i) => (
-						<li key={`${name}-${i}`}>
-						<Polaroid
-							filename={src}
-							alt={name}
-							w={430}
-							h={543}
-							className="w-1/3"
-						/>
-						</li>
-					))}
-				</ol>
+		<div className="grid gap-4 xl:gap-6 grid-cols-2 sm:grid-cols-3 xl:grid-cols-4">
+			{kids.map(({ name, date, src, }, i) => (
+				<Polaroid
+					key={`${name}-${i}`}
+					filename={src}
+					alt={name}
+					w={430}
+					h={543}
+					className=""
+					title={name}
+					subtitle={`(* ${date})`}
+				/>
+			))}
 		</div>
 	)
 }

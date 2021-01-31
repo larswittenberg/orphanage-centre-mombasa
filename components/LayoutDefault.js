@@ -8,7 +8,7 @@ export default function LayoutDefault({ children }) {
 		<div>
 			<Nav />
 				<MDXProvider components={MDXComponents}>
-					<main className="prose prose-sm sm:prose lg:prose-xl mx-auto">
+					<main className="px-4 prose prose-sm sm:prose lg:prose-xl mx-auto">
 						{children}
 					</main>
 				</MDXProvider>
