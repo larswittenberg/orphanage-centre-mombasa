@@ -1,8 +1,7 @@
 import LayoutDefault from '../components/LayoutDefault'
+import StaffGallery from '../components/StaffGallery'
 
-export const meta = {
-	title: 'Volunteers',
-}
+export default ({ children }) => <LayoutDefault>{children}</LayoutDefault>
 
 # Mission
 
@@ -42,6 +41,34 @@ Our specified goal is to address their needs and formulate ways of attending to 
 	alt="COMOC Staff"
 	w={840}
 	h={680}
+	rotation="left"
 />
 
-export default ({ children }) => <LayoutDefault meta={meta}>{children}</LayoutDefault>
+
+## Our main objectives
+
+The institution shall have the following specific principal objectives:
+
+- Food provision
+- Establish and broaden-up structural building the children shall be catered for
+- Clothing
+- Medication
+- Love and counseling through disciplined staffs of good reputation
+- Acquire land through lease for subsistence farming to cater for the children and training in agricultural skills and for structural developments
+
+<Polaroid
+	filename="samuel-and-kay.jpg"
+	alt="Samuel and Kay"
+	w={840}
+	h={680}
+	rotation="right"
+	className="mt-12"
+/>
+
+
+## Our Staff
+
+<div className="md:flex items-center xl:-mx-48 mb-20">
+	<StaffGallery />
+</div>
+
