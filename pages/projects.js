@@ -16,6 +16,7 @@ export default function Projects() {
 					alt="Rice and beans"
 					w={840}
 					h={680}
+					rotation="left"
 				/>
 
 				<p>Our next big project is to complete the building of the Dining room which will be a roof, windows, tiled floor and then seating for the children.</p>
@@ -28,7 +29,7 @@ export default function Projects() {
 					alt="Tution at home"
 					w={840}
 					h={680}
-					rotationRight
+					rotation="right"
 				/>
 
 				<p>And then - one day in the future - we would like to have our own Matatu (minibus) to transport the children around Mombasa, take them on outings and collect Volunteers from the airport.</p>
@@ -39,6 +40,7 @@ export default function Projects() {
 					alt="Kitchen without roof"
 					w={840}
 					h={680}
+					rotation="left"
 				/>
 
 				<h2>Donate</h2>
@@ -51,7 +53,7 @@ export default function Projects() {
 					extraClassName="polaroid-left"
 					w={1320}
 					h={830}
-					rotationRight
+					rotation="right"
 				/>
 			</div>
 		</LayoutDefault>
