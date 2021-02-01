@@ -12,3 +12,13 @@
 	background-color: theme('colors.orange');
 	color: #fff;
 }
+
+
+/* Nav */
+.menu {
+	display: none;
+}
+
+.showmenu__input:checked + .menu {
+	display: flex;
+}
