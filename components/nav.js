@@ -11,18 +11,18 @@ const links = [
 
 export default function Nav() {
 	return (
-		<nav className="bg-gray-800">
-			<ul className="flex items-center justify-between p-8">
+		<nav className="bg-navgrey">
+			<ul className="flex items-center justify-between py-5 px-8">
 				<li>
 					<NextLink href="/">
-						<a className="no-underline text-accent-1 dark:text-gray-300">Child of Mercy Orphanage Centre</a>
+						<a className="no-underline text-gray-50 text-2xl hover:text-orange focus:text-orange">Child of Mercy Orphanage Centre</a>
 					</NextLink>
 				</li>
-				<ul className="flex items-center justify-between space-x-4">
+				<ul className="flex items-center justify-between space-x-4 -mt-2">
 					{links.map(({ href, label }) => (
 						<li key={`${href}${label}`}>
 							<NextLink href={href}>
-								<a className="underline p-1 text-gray-50">{label}</a>
+								<a className="text-lg no-underline px-1 py-2 border-b-3 text-gray-50  hover:border-orange focus:border-orange focus:text-orange">{label}</a>
 							</NextLink>
 						</li>
 					))}
