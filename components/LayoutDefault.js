@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react'
-import MDXComponents from './MDXComponents';
+import MDXComponents from './MDXComponents'
 import Nav from './Nav'
 import Footer from './Footer'
 import Teaser from './Teaser'
