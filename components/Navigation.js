@@ -9,7 +9,7 @@ const links = [
 	{ href: '/contact', label: 'Contact' }
 ]
 
-export default function Nav() {
+export default function Navigation() {
 	return (
 		<nav className="bg-navgrey">
 			<div className="flex flex-wrap lg:items-center lg:justify-between py-4 px-4 md:py-5 md:px-8">
