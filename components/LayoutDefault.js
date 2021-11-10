@@ -10,7 +10,7 @@ export default function LayoutDefault({ children, withTeaser }) {
 			<Navigation />
 			{withTeaser ? <Teaser /> : ''}
 			<MDXProvider components={MDXComponents}>
-				<main className="px-4 prose prose-sm sm:prose lg:prose-xl mx-auto pt-4 md:pt-16">
+				<main className="prose sm:prose-base lg:prose-lg xl:prose-xl 2xl:prose-2xl mx-auto px-4 pt-4 md:pt-16">
 					{children}
 				</main>
 			</MDXProvider>
