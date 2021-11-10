@@ -23,6 +23,7 @@ export default function Polaroid({
 				alt={alt}
 				width={w}
 				height={h}
+				className="bg-gray-100"
 			/>
 			<span className="flex flex-col text-center mt-0 mb-1">
 				<i className="not-italic">{title}</i>
