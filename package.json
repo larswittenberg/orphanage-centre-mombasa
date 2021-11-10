@@ -14,7 +14,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "clean": "npx rimraf .next",
+    "export": "npx rimraf .next && next build && next export"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
