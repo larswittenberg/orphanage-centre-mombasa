@@ -3,17 +3,18 @@ import path from 'path'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 
-
 function Photos({ photos }) {
-	// console.log({photos})
 	return (
 		<div>
 			<Navigation />
-				<main className="px-4 prose prose-sm sm:prose lg:prose-xl mx-auto pt-4 md:pt-16">
-					<ul className="">
+				<main className="px-4 mx-auto pt-4 md:pt-16">
+					<div className="prose prose-sm sm:prose lg:prose-xl mx-auto">
+						<h1 className="">Photo-Gallery</h1>
+					</div>
+					<ul className="grid grid-cols-4 gap-2 max-w-screen-xl mx-auto mt-24">
 						{photos.map((photo, i) => (
-							<li key={i} className="">
-								<img src={`/images/photogallery/${photo}`} />
+							<li key={i} className="block h-72">
+								<img src={`/images/photogallery/${photo}`} className="block w-full h-full object-cover bg-gray-100" />
 							</li>
 						))}
 					</ul>
