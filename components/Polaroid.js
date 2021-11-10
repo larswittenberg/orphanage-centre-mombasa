@@ -26,7 +26,7 @@ export default function Polaroid({
 			/>
 			<span className="flex flex-col text-center mt-0 mb-1">
 				<i className="not-italic">{title}</i>
-				<i className="not-italic text-gray-400">{subtitle}</i>
+				<i className="not-italic text-gray-400 text-base">{subtitle}</i>
 			</span>
 		</div>
 	)
