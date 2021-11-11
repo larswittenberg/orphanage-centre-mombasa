@@ -21,3 +21,7 @@
 .showmenu__input:checked + .menu {
 	display: flex;
 }
+
+.gallery li > span {
+	height: 100% !important;
+}
