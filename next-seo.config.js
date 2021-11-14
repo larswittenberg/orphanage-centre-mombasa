@@ -1,5 +1,5 @@
 const title = 'Child of Mercy Orphanage Centre Mombasa, Kenya'
-const description = 'Child of Mercy Orphanage Centre (COMOC) was formed in 2010 and is situated in the Likoni slum area south of Mombasa.'
+const description = 'Our Orphanage Centre was formed in 2010 and is situated in the Likoni slum area south of Mombasa.'
 const url = 'https://child-of-mercy-orphanage-centre-kenya.com/'
 
 export default {
@@ -11,6 +11,12 @@ export default {
 		url: url,
 		title,
 		description,
+		images: [{
+			url: 'https://www.child-of-mercy-orphanage-centre-kenya.com/images/comoc.jpg',
+			alt: title,
+			width: 1920,
+			height: 1075
+		}]
 	},
 		twitter: {
 		handle: '@larswittenberg',
